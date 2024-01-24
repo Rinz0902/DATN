@@ -9,7 +9,7 @@ import com.poly.entity.Book;
 import com.poly.entity.ChangePanel;
 import com.poly.entity.Image;
 
-public interface ChangePanelDAO extends JpaRepository<ChangePanel, Long> {
+public interface ChangePanelDAO extends JpaRepository<ChangePanel, Integer> {
 	
 	List<ChangePanel> findAll();
 
